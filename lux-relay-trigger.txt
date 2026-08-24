@@ -1,0 +1,1 @@
+Temporary trigger for Lux relay probe on 2026-08-24.
