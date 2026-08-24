@@ -2,8 +2,6 @@ name: Lux Relay Probe
 
 on:
   pull_request:
-    paths:
-      - '.github/workflows/lux-relay-probe.yml'
   workflow_dispatch:
 
 permissions:
@@ -42,3 +40,5 @@ jobs:
           name: lux-relay-probe
           path: probe
           if-no-files-found: error
+
+# retrigger 2026-08-24
